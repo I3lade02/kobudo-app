@@ -6,6 +6,8 @@ import About from './components/About';
 import Schedule from './components/Schedule';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
+import Divider from './components/Divider';
+import './App.css';
 
 function App() {
   return (
@@ -13,8 +15,11 @@ function App() {
       <NavigationBar />
       <Home />
       <About />
+      <Divider />
       <Schedule />
+      <Divider />
       <Gallery />
+      <Divider />
       <Testimonials />
     </div>
   );
