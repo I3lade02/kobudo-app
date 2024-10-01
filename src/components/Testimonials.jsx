@@ -6,7 +6,7 @@ const Testimonials = () => {
     const testimonies = [
         {text: "Tréninky jsou velice zábavné a rozmanité. Při samotném tréninku s katanou je skvělé, že se člověk nemusí bát udělat chybu. Pokud něco nevím, stačí se zeptat. Prokládání posilováním, či různými dechovými cvičeními pomáhá se zlepšením fyzické kondice, držením těla apod. A to vše je pak velice užitečné i při samotném používání meče. Trénink tak není repetetivní. Navíc každý dostává individuální přístup trenérů a je pak snazší uvědomit si své nedostatky a učit se rychleji. Nemluvě o skvělém kolektivu, ve kterém vás nikdo neodsuzuje za chyby, které děláte, naopak vás všichni podpoří ve zlepšení. Doporučuji", person: "Maru"},
         {text: "Dle mě je to skvěle pojaté. Kdo je fanouškem Japonska nebo šermu s katanami, tak se tu určitě najde. Trenér Choki Vás toho hodně naučí a trenérka Barča se zaměřuje na očistu mysli, správné držení těla a dýchání, celkově bomba aktivita ve skvělém kolektivu lidí", person: "Honza"},
-        {text: "Na trénincích si přijdu skvěle. Jsou tu lidé, co mi rozumí, klidní a chápaví trenéři, kteří tomu věnují čas a baví je to.>Konečně moje krevní vrstva", person: "Riki"},
+        {text: "Na trénincích si přijdu skvěle. Jsou tu lidé, co mi rozumí, klidní a chápaví trenéři, kteří tomu věnují čas a baví je to. Konečně moje krevní vrstva", person: "Riki"},
         {text: "Fajn lidi a trenéři. Příjemný přístup k nováčkům a příjemné prostředí", person: "David"}
     ];
 
