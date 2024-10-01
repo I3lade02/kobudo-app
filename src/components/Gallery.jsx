@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Modal, Button } from 'react-bootstrap';
+import Loader from './Loader';
 
 const Gallery = () => {
     const [showModal, setShowModal] = useState(false);
@@ -31,6 +32,12 @@ const Gallery = () => {
         setShowModal(false);
         setSelectedImage('');
       };
+
+      const [loading, setLoading] = useState(true);
+
+      const handleImageLoad = () => {
+        setLoading(false);
+      }
     
       return (
         <div className='gallery-container'>
@@ -38,11 +45,14 @@ const Gallery = () => {
           <Row>
             {images.map((image, index) => (
               <Col md={3} key={index} className="mb-3 d-flex justify-content-center">
+                {loading && <Loader />}
                 <img 
                   src={image} 
                   alt={`Gallery pic ${index + 1}`} 
                   className="img-fluid gallery-image cursor-pointer" 
                   onClick={() => handleShow(image)} 
+                  style={{ display: loading ? 'none' : 'block'}}
+                  onLoad={handleImageLoad}
                 />
               </Col>
             ))}
