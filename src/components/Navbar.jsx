@@ -9,13 +9,12 @@ const NavigationBar = () => {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='me-auto'>
-          <NavDropdown title='Menu' id='basic-nav-dropdown'>
-            <NavDropdown.Item href='#home'>Domů</NavDropdown.Item>
-            <NavDropdown.Item href='#home'>O nás</NavDropdown.Item>
-            
-            <NavDropdown.Item href='#home'>Tréninky</NavDropdown.Item>
-            <NavDropdown.Item href='#home'>Galerie</NavDropdown.Item>
-            <NavDropdown.Item href='#home'>Recenze</NavDropdown.Item>
+          <Nav.Link href='#home'>Domů</Nav.Link>
+          <Nav.Link href='#about'>O nás</Nav.Link>
+          <Nav.Link href='#gallery'>Galerie</Nav.Link>
+          <NavDropdown title='Více...' id='basic-nav-dropdown'>
+            <NavDropdown.Item href='#schedule'>Tréninky</NavDropdown.Item>
+            <NavDropdown.Item href='#testimonials'>Recenze</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
