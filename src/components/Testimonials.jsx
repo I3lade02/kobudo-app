@@ -29,25 +29,27 @@ const Testimonials = () => {
   }, [handleNext]); 
 
     return (
-        <div>
-            <h2 className='text-center'>Co o nás říkají studenti</h2>
-            <Row className='justify-content-center'>
-                <Col md={6}>
-                    <Card>
-                        <Card.Body>
-                            <Card.Text>"{testimonies[index].text}"</Card.Text>
-                            <Card.Footer>- {testimonies[index].person}</Card.Footer>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-            <Row className='justify-content-center mt-3 mb-3'>
-                <Col className='text-center'>
-                    <Button variant='primary' size='lg' onClick={handlePrev}>Předchozí</Button>
-                    <Button variant='primary' size='lg' className='ms-3' onClick={handleNext}>Další</Button>
-                </Col>
-            </Row>
-        </div>
+        <section id='testimonials'>
+            <div>
+                <h2 className='text-center'>Co o nás říkají studenti</h2>
+                <Row className='justify-content-center'>
+                    <Col md={6}>
+                        <Card>
+                            <Card.Body>
+                                <Card.Text>"{testimonies[index].text}"</Card.Text>
+                                <Card.Footer>- {testimonies[index].person}</Card.Footer>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row className='justify-content-center mt-3 mb-3'>
+                    <Col className='text-center'>
+                        <Button variant='primary' size='lg' onClick={handlePrev}>Předchozí</Button>
+                        <Button variant='primary' size='lg' className='ms-3' onClick={handleNext}>Další</Button>
+                    </Col>
+                </Row>
+            </div>
+        </section>
     );
 };
 

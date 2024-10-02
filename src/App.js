@@ -7,7 +7,6 @@ import Schedule from './components/Schedule';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Divider from './components/Divider';
-import Video from './components/Video';
 import './App.css';
 
 function App() {
@@ -20,8 +19,6 @@ function App() {
       <Schedule />
       <Divider />
       <Gallery />
-      <Divider />
-      <Video />
       <Divider />
       <Testimonials />
     </div>
