@@ -5,7 +5,7 @@ const Schedule = () => (
     <section id='schedule' className='text-center p-5'>
         <h2>Tréninky</h2>
             <Row className='justify-content-center'>
-                <Col md={3}>
+                <Col md={3} style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.5)", borderRadius: "10px" }}>
                     <Card>
                         <Card.Body>
                             <Card.Title>Pátek</Card.Title>

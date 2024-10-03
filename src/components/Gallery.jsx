@@ -54,7 +54,7 @@ const Gallery = () => {
                     alt={`Gallery pic ${index + 1}`} 
                     className="img-fluid gallery-image cursor-pointer" 
                     onClick={() => handleShow(image)} 
-                    style={{ display: loading ? 'none' : 'block'}}
+                    style={{ display: loading ? 'none' : 'block', borderRadius: "10px" }}
                     onLoad={handleImageLoad}
                   />
                 </Col>

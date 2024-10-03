@@ -7,6 +7,8 @@ import Schedule from './components/Schedule';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Divider from './components/Divider';
+import Coaches from './components/Coaches';
+import Downloads from './components/Downloads';
 import './App.css';
 
 function App() {
@@ -16,11 +18,15 @@ function App() {
       <Home />
       <About />
       <Divider />
+      <Coaches />
+      <Divider />
       <Schedule />
       <Divider />
       <Gallery />
       <Divider />
       <Testimonials />
+      <Divider  />
+      <Downloads />
     </div>
   );
 }

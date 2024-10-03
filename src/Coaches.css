@@ -1,0 +1,61 @@
+.coaches-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.coach-container {
+    position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.coach-image {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+    margin: 0 auto;
+}
+
+.coach-container:hover .coach-image {
+    transform: scale(1.05);
+}
+
+.coach-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.coach-container:hover .coach-info {
+    opacity: 1;
+}
+
+.coach-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.coach-info p {
+    font-size: 1.2rem;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.katana-image {
+    height: 350px;
+    margin: 0 20px;
+}

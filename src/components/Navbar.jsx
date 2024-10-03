@@ -12,9 +12,11 @@ const NavigationBar = () => {
           <Nav.Link href='#home'>Domů</Nav.Link>
           <Nav.Link href='#about'>O nás</Nav.Link>
           <Nav.Link href='#gallery'>Galerie</Nav.Link>
+          <Nav.Link href='#coaches'>Trenéři</Nav.Link>
           <NavDropdown title='Více...' id='basic-nav-dropdown'>
             <NavDropdown.Item href='#schedule'>Tréninky</NavDropdown.Item>
             <NavDropdown.Item href='#testimonials'>Recenze</NavDropdown.Item>
+            <NavDropdown.Item href='#downloads'>Soubory ke stažení</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

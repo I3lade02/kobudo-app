@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  /*custom for mozilla scrollbar*/
+  scrollbar-width: thin;
+  scrollbar-color: #555 #f1f1f1;
 }
 
 html, body {
@@ -45,3 +48,26 @@ h1, h2 {
 .video-container {
   margin: auto;
 }
+
+/*scrollbar custom*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*thumb custom*/
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+/*hover effect for thumb*/
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
+
+/*Custom track bg*/
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+

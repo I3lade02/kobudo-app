@@ -33,7 +33,7 @@ const Testimonials = () => {
             <div>
                 <h2 className='text-center'>Co o nás říkají studenti</h2>
                 <Row className='justify-content-center'>
-                    <Col md={6}>
+                    <Col md={6} style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.5)", borderRadius: "10px" }}>
                         <Card>
                             <Card.Body>
                                 <Card.Text>"{testimonies[index].text}"</Card.Text>
